@@ -43,7 +43,10 @@ npm run typecheck  # tsc --noEmit
 | `lib/schema.ts` | `Organization` / `HairSalon` JSON-LD graph |
 | `lib/motion.ts` | Shared easing and viewport constants |
 | `lib/modal.ts` | Reference-counted scroll lock and background inert handling |
-| `public/assets/` | Photography, grain tile and favicon |
+| `app/favicon.ico` | Multi-size 16/32/48 favicon |
+| `app/icon.svg` | Scalable Bodoni monogram favicon |
+| `app/apple-icon.png` | 180 px Apple touch icon |
+| `public/assets/` | Photography, grain tile and the 1200×630 social preview |
 | `legacy-static/` | The original pre-Next.js site, preserved for reference only |
 
 ## What's included
@@ -61,7 +64,8 @@ npm run typecheck  # tsc --noEmit
 - **Concierge chat** — rule-based demo assistant with quick replies, typing indicator and mobile show-on-scroll behaviour above the bookbar.
 - **Mobile experience** — full-screen animated menu, sticky booking bar after the hero (hidden near the footer), concierge repositioned above the bar, 44 px touch targets and 16 px inputs to prevent zoom.
 - **Accessibility** — skip link, visible focus styles, labelled icon buttons, `aria-expanded`/`aria-controls`, `aria-current` scrollspy, custom focus traps, inert backgrounds, focus return after dialogs close, managed success focus, scroll lock and `prefers-reduced-motion` support.
-- **SEO** — descriptive title/meta, canonical URL, Open Graph and Twitter cards, `HairSalon`/`Organization` JSON-LD.
+- **SEO** — descriptive title/meta, canonical URL, Open Graph and Twitter cards with a real 1200×630 hero screenshot, descriptive image alt text, `HairSalon`/`Organization` JSON-LD.
+- **App icons** — a multi-size `.ico`, a scalable black-and-cream Bodoni monogram, and an Apple touch icon, all generated from the same mark.
 
 ## Motion
 

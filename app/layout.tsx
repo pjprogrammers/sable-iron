@@ -31,9 +31,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
-  icons: {
-    icon: [{ url: "/assets/favicon.svg", type: "image/svg+xml" }],
-  },
   openGraph: {
     type: "website",
     url: "/",
@@ -43,10 +40,11 @@ export const metadata: Metadata = {
       "Precision cuts, straight-razor shaves and proper chair time in Edgewater and Coral Gables.",
     images: [
       {
-        url: "/assets/hero.jpg",
-        width: 2000,
-        height: 1333,
-        alt: "A barber shaping a client's haircut in a warmly lit shop",
+        url: "/assets/og-image.jpg",
+        type: "image/jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Sable & Iron homepage with the headline “Look sharp. Feel unhurried.” above booking buttons and a barber at work.",
       },
     ],
   },
@@ -55,7 +53,15 @@ export const metadata: Metadata = {
     title: "Sable & Iron — Luxury Barbershop in Miami",
     description:
       "Precision cuts, straight-razor shaves and proper chair time in Edgewater and Coral Gables.",
-    images: ["/assets/hero.jpg"],
+    images: [
+      {
+        url: "/assets/og-image.jpg",
+        type: "image/jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Sable & Iron homepage with the headline “Look sharp. Feel unhurried.” above booking buttons and a barber at work.",
+      },
+    ],
   },
 };
 
