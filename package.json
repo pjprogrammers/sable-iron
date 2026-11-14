@@ -1,0 +1,31 @@
+{
+  "name": "sable-and-iron",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sable & Iron — a fictional barber atelier in Miami. Next.js, Tailwind CSS, Framer Motion and GSAP.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "framer-motion": "^14.14.0",
+    "gsap": "^3.15.1",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "^16.4.6",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^5.9.0"
+  }
+}
